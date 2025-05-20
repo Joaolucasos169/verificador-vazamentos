@@ -1,8 +1,33 @@
-venv/
-.env
+# Bytecode do Python
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Arquivos do ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+.Python
+
+# Arquivos do VSCode (opcional)
+.vscode/
+
+# Arquivos de log temporários
 *.log
-*.swp
+
+# Arquivos de cache
+*.sqlite3
+*.db
+*.bak
+
+# Arquivos de configuração do sistema
 .DS_Store
-*.pdf
+Thumbs.db
+
+# Arquivos salvos dos resultados
+*.txt
+
+# Arquivos de pacotes
+*.egg-info/
+dist/
+build/
